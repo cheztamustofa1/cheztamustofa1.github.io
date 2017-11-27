@@ -1,0 +1,160 @@
+
+h1,h2,h3,h4,h5 {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+.navbar {
+    opacity: .6;
+    color: blue;
+    width: 1349px;
+    padding: 10px;
+
+}
+
+body {
+  
+}
+
+.biografi {
+    
+}
+
+.barli {
+    width: 1349px;
+    height: 610px;
+}
+.bio {
+    background-image: url(../img/poll.png);
+    height: 610px;
+    text-align: center;
+}
+
+.biog {
+    text-align: justify;
+
+}
+
+.row.biog {
+    margin: 20px;
+}
+.foto {
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.galeri {
+    text-align: center;
+    padding-top: 1em;
+    background-image: url(../img/pola.jpg);
+    border-radius: 30px;
+}
+
+.isi {
+    margin: 0px;
+    margin-top: 0px;
+    height: 610px;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    text-align: justify;
+    background-image: url(../img/skulls.png);
+    
+}
+
+.pro {
+    text-align: center;
+    margin: 0px;
+    
+}
+
+.isi p {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.row.profil {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 610px;
+    text-align: justify;
+}
+
+.profil h2 {
+    margin: 20px;
+}
+
+.disbudpar {
+    margin: 0px;
+    padding: 20px;
+    text-align: justify;
+    background-image: url(../img/old.png);
+}
+
+.gal {
+    
+}
+
+.fot {
+    height: 40px;
+    width: 20px;
+}
+
+.row.foot h2 {
+    margin: 20px;
+}
+.row.contact {
+    background-color: rgb(206, 194, 194);
+    border-radius: 40px;
+}
+
+.maps {
+    margin: 20px;
+    
+}
+.maps iframe{
+    padding: 10px;
+    width: 100%;
+}
+
+.maps h3 {
+    text-align: center;
+    background-color: rgb(93, 136, 201);
+    height: 50px;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.harga {
+    width: auto;
+    margin: 20px;
+    margin-top: 30px;
+    height: auto;
+    padding: 16px;
+    padding-left: 30px;
+    text-align: justify;
+    background: #aaa;
+}
+
+.harga h2 {
+    margin: 25px;
+    text-align: center;
+}
+
+footer {
+    margin: 0px;
+    width: auto;
+    height: 450px;
+    background-color: grey;
+    padding: 1em;
+}
+
+.end-footer {
+    color:white; 
+    background-color:black; 
+    text-align: center;
+    height: 50px;
+}
