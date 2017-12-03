@@ -9,6 +9,10 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+/* hover */
+
+
  /* navbar */
 .navbar {
     opacity: .6;
@@ -61,7 +65,7 @@ body {
     margin-bottom: 5px;
 }
 .row.gal {
-    padding-left: 10em;
+    padding-left: 9em;
 }
 
  /* isi profil */
@@ -174,7 +178,7 @@ body {
     text-align: center;
 }
 
-/* batas garsi */
+/* batas garis */
 .pembatas {
     background-color: #493232;
     font-family: 32px Arial, Helvetica, sans-serif;
