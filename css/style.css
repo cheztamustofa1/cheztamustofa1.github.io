@@ -68,6 +68,17 @@ body {
     padding-left: 9em;
 }
 
+.row.gal img {
+    border-radius: 20px;
+    transform: 0deg;
+    transition: .7sec;
+}
+
+.row.gal img:hover {
+    opacity: .8;
+    transform: 180deg;
+}
+
  /* isi profil */
 .isi {
     margin: 0px;
