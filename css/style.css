@@ -74,10 +74,8 @@ body {
     padding-right: 1em;
     padding-bottom: 2em;
     text-align: justify;
-    background-image: url(../img/skulls.png);
-    
+    background-image: url(../img/skulls.png);    
 }
-
 
 .isi p {
     margin-top: 30px;
@@ -97,6 +95,12 @@ body {
     padding-right: 1em;
     height: 610px;
     text-align: justify;
+}
+
+.row.pro {
+    margin: 10px;
+    color: black;
+
 }
 
 .profil h2 {
