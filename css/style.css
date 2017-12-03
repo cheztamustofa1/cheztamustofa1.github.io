@@ -5,26 +5,30 @@ h1,h2,h3,h4,h5 {
 
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+ /* navbar */
 .navbar {
     opacity: .6;
-    color: blue;
     width: 1349px;
     padding: 10px;
-
+    padding-right: 50px;
 }
 
-body {
-  
+.navbar-inverse .navbar-nav>li>a {
+    color: #25b7be;
+    padding-right: 30px;
 }
 
-.biografi {
-    
-}
-
+/* cover */
 .barli {
     width: 1349px;
     height: 610px;
 }
+
+/* biografi */
 .bio {
     background-image: url(../img/poll.png);
     height: 610px;
@@ -39,18 +43,28 @@ body {
 .row.biog {
     margin: 20px;
 }
+
 .foto {
     margin-top: 30px;
     border-radius: 50%;
 }
 
+/* galeri */
 .galeri {
     text-align: center;
     padding-top: 1em;
-    background-image: url(../img/pola.jpg);
+    background-image: url(../img/green_cup.png);
     border-radius: 30px;
 }
 
+.galeri h2 {
+    margin-bottom: 5px;
+}
+.row.gal {
+    padding-left: 10em;
+}
+
+ /* isi profil */
 .isi {
     margin: 0px;
     margin-top: 0px;
@@ -64,19 +78,21 @@ body {
     
 }
 
-.pro {
-    text-align: center;
-    margin: 0px;
-    
-}
 
 .isi p {
     margin-top: 30px;
     text-align: justify;
 }
 
+/* profil */
+.pro {
+    text-align: center;
+    margin: 0px;
+    
+}
+
 .row.profil {
-    padding-top: 1em;
+    padding-top: 0px;
     padding-left: 1em;
     padding-right: 1em;
     height: 610px;
@@ -87,6 +103,18 @@ body {
     margin: 20px;
 }
 
+.profil h3 {
+    color: rgba(rgb(131, 131, 226));
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.profil img {
+    margin: auto;
+    border-radius: 20px;
+}
+
+/* dibudpar */
 .disbudpar {
     margin: 0px;
     padding: 20px;
@@ -94,26 +122,18 @@ body {
     background-image: url(../img/old.png);
 }
 
-.gal {
-    
+.row {
+    margin-right: 5px;
+    margin-left: -15px;
 }
 
-.fot {
-    height: 40px;
-    width: 20px;
-}
-
-.row.foot h2 {
-    margin: 20px;
-}
-.row.contact {
-    background-color: rgb(206, 194, 194);
-    border-radius: 40px;
+/* kunjungi */
+.kunjungi {
+    margin: 0px;
 }
 
 .maps {
-    margin: 20px;
-    
+    margin: 10px;
 }
 .maps iframe{
     padding: 10px;
@@ -125,18 +145,24 @@ body {
     background-color: rgb(93, 136, 201);
     height: 50px;
     padding: 12px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .harga {
     width: auto;
-    margin: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     height: auto;
     padding: 16px;
     padding-left: 30px;
     text-align: justify;
-    background: #aaa;
+    background: #aaa;  
+    box-shadow: 0px 30px 10px -20px rgba(0,0,0,.75);
+    transition: .3s;
+}
+
+.harga:hover {
+    box-shadow: 0px 80px 10px -40px rgba(0,0,0,.15);
+    margin-top: 10px;
 }
 
 .harga h2 {
@@ -144,12 +170,46 @@ body {
     text-align: center;
 }
 
+/* batas garsi */
+.pembatas {
+    background-color: #493232;
+    font-family: 32px Arial, Helvetica, sans-serif;
+    color: #eaeaea;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    opacity: .8;
+    margin: 2px;
+}
+
+/* footer */
 footer {
     margin: 0px;
-    width: auto;
+    width: 100%;
     height: 450px;
     background-color: grey;
-    padding: 1em;
+    padding: 15px;
+}
+
+
+.fot {
+    height: 40px;
+    width: 20px;
+}
+
+.row.foot h2 {
+    margin: 20px;
+    text-align: center;
+}
+.foot1 {
+    padding: 3px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.row.contact {
+    background-color: rgb(206, 194, 194);
+    border-radius: 40px;
 }
 
 .end-footer {
@@ -157,4 +217,5 @@ footer {
     background-color:black; 
     text-align: center;
     height: 50px;
+    margin: 0px;
 }
